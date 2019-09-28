@@ -1,78 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<title>evildrops personal page</title>
-<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
-<style> 
-body {
-    background: rgb(95, 93, 93); /* Цвет фона */
-    color: #fc0; /* Цвет текста */
-   }
-H1 { 
-    font-size: 20px; 
-    font-family: Source Serif Pro; 
-    color: #fc0; 
-   }
-   .page__header {
-    text-align:  left;
-   }
-   .title {
-    text-align:  left;
-   }
-   .title__occupation {
-    text-align:  left;
-   }
-   .page__body {
-    text-align:  left;
-   }
-   .page__footer {
-    text-align:  left;
-   }
-   .c {
-    border: 1px solid white; /* Рамка */
-    display: inline-block;
-    padding: 5px 15px; /* Поля */
-    text-decoration: none; /* Убираем подчёркивание */
-    color: rgb(250, 250, 250); /* Цвет текста */
-  }
-   .c:hover {
-    box-shadow: 0 0 5px rgba(#fc0); /* Тень */
-    background: linear-gradient(to bottom, #fc0, #e9e9ce); /* Градиент */
-    color: #a00;
-   }
-</style>
+    <meta charset="UTF-8">
+    <title>My first page</title>
+    <style>
+        body {
+            background: #fffafa;
+            max-width: 800px;
+        }
+
+        .photo {
+            text-align: center;
+        }
+
+        .round {
+            border-radius: 20px;
+            border: 5px #ccc solid;
+            box-shadow: 0 0 10px #444;
+        }
+
+        .text {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 15pt;
+        }
+
+        ol {
+            text-align: left
+        }
+
+        a {
+            padding: 10px;
+            text-decoration: none
+        }
+
+        a:hover {
+            background: rgb(247, 2, 2);
+            color: rgb(47, 24, 255);
+        }
+
+        h1 {
+            font-size: 20pt;
+        }
+
+        h2 {
+            font-size: 15pt;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="page">
-        <div class="page__header">
-            <div class="photo">
-                <img src="photo.jpg" alt="my photo"/>
-            </div>
-            <div class="title">
-                <h1>Maxim Kostarev</h1>
-                <div class="title__occupation">
-                    Digital Marketing Specialist
-                </div>
-            </div>
-        </div>
-        <div class="page__body">
-            <p>
-                Experienced Digital Marketing Specialist with a demonstrated history of working in the information technology and services industry. 
-                Skilled in E-commerce, Market Analysis, Digital Marketing, and Mobile Applications. Strong marketing professional graduated from Perm State University (PSU). 
-            </p>
-            <p>Skills & Endorsements:</p>
-            <ul>
-                <li>Contextual Advertising</li>
-                <li>Online Marketing</li>
-                <li>Online Advertising</li>
-                <li>Public Relations</li>
-                <li>Website Development</li>
-            </ul>
-        </div>
-        <div class="page__footer">
-                <a href="mailto:evildrops@gmail.com" class="c">Send me to email</a>
-        </div>
+    <div class="photo">
+        <img src="photo.jpg" alt="my crazy photo in bender hat" class="round" />
+    </div>
+    <div class="text">
+        <h1>
+            Maxim Kostarev
+        </h1>
+        <h2>
+            Digital Marketing Specialist
+        </h2>
+        <p>
+            Experienced Digital Marketing Specialist with a demonstrated history of working in the information
+            technology and services industry.
+            Skilled in E-commerce, Market Analysis, Digital Marketing, and Mobile Applications. Strong marketing
+            professional graduated from Perm State University (PSU).
+        </p>
+        <p>
+            Skills & Endorsements:
+        </p>
+        <ol>
+            <li>Contextual Advertising</li>
+            <li>Online Marketing</li>
+            <li>Online Advertising</li>
+            <li>Public Relations</li>
+            <li>Website Development</li>
+        </ol>
+        <p>
+            <a href="mailto:evildrops@gmail.com" class="c">Send me an email</a>
+        </p>
     </div>
 </body>
+
 </html>
