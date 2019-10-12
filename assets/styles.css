@@ -3,6 +3,10 @@
             max-width: 800px;
         }
 
+        .navbar-brand img {    
+            width: 50px;
+        }
+
         .photo {
             text-align: center;
         }
