@@ -4,9 +4,11 @@
         }
         .list1 {
             align-items: center;
+            margin: 0 auto;
         }
         .list2 {
             align-items: center;
+            margin: 0 auto;
         }
 
         .navbar-brand img {    
