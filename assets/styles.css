@@ -2,13 +2,11 @@
             background: #fffafa;
             max-width: 100%;
         }
-        .container ul {
+        .list1 {
             text-align: center;
-            list-style: none;
         }
-        .container ol {
+        .list2 {
             text-align: center;
-            list-style: none;
         }
 
         .navbar-brand img {    
