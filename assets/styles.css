@@ -2,6 +2,18 @@
             background: #fffafa;
             max-width: 100%;
         }
+        .container ul {
+            text-align: center;
+            list-style: none;
+        }
+        .container ol {
+            text-align: center;
+            list-style: none;
+        }
+        
+        .container li {
+            display: inline-block;
+        }
 
         .navbar-brand img {    
             width: 50px;
