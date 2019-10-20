@@ -4,8 +4,8 @@
         }
         
         .container {
-            width: 960px;
-            justify-content: center;
+            width: 1140px;
+            justify-content: flex-start;
         }
 
         .navbar-brand img {    
