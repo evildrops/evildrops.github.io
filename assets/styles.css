@@ -2,6 +2,10 @@
             background: #fffafa;
             max-width: 100%;
         }
+        
+        .container {
+            width: 1060px;
+        }
 
         .navbar-brand img {    
             width: 50px;
