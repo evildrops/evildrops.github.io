@@ -2,14 +2,6 @@
             background: #fffafa;
             max-width: 100%;
         }
-        .list1 {
-            text-align: center;
-            margin: auto;
-        }
-        .list2 {
-            text-align: center;
-            margin: auto;
-        }
 
         .navbar-brand img {    
             width: 50px;
@@ -23,20 +15,6 @@
             border-radius: 20px;
             border: 5px #ccc solid;
             box-shadow: 0 0 10px #444;
-        }
-
-        .text {
-            text-align: center;
-            color: rgb(0, 0, 0);
-            font-size: 15pt;
-        }
-
-        ol {
-            text-align: left
-        }
-
-        ul {
-            text-align: left;
         }
 
         a {
