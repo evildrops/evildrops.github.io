@@ -8,28 +8,37 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #333333;
-    width: 590px;
+    max-width: 590px;
 }
 
 .photo {
     background-color: #ffffff;
-    width: 1024px;
+    text-align: center;
+    width: 100%;
+    max-width: 1024px;
 }
 
-img {
-    width: 800px;
+.photo img {
+    width: 100%;
 }
 
 h1 {
     font-size: 40px;
+    text-align: center;
 }
 
 h2 {
     font-size: 19px;
+    text-align: center;
+}
+
+header {
+    text-align: center;
 }
 
 footer {
     font-size: 19px;
+    text-align: center;
 }
 
 a:link {
