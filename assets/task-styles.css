@@ -1,4 +1,23 @@
 .page {
     background-color: #eeeeee;
     font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    width: 590px;
+}
+.photo {
+    background-color: #ffffff;
+    width: 1024px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 19px;
+}
+footer {
+    font-size: 19px;
+}
+a:link {
+    color: #477ca7;
 }
